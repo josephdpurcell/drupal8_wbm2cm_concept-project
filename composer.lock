@@ -728,12 +728,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "2738532fc0ab4ca1ca3cda91da3147c9f0a5cf20"
+                "reference": "24b1e97356e2ed50ebd984e6a08017fbc320ba8b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/2738532fc0ab4ca1ca3cda91da3147c9f0a5cf20",
-                "reference": "2738532fc0ab4ca1ca3cda91da3147c9f0a5cf20",
+                "url": "https://api.github.com/repos/drupal/core/zipball/24b1e97356e2ed50ebd984e6a08017fbc320ba8b",
+                "reference": "24b1e97356e2ed50ebd984e6a08017fbc320ba8b",
                 "shasum": ""
             },
             "require": {
@@ -906,7 +906,7 @@
                 "GPL-2.0+"
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
-            "time": "2017-07-28T07:33:41+00:00"
+            "time": "2017-08-02 01:43:51"
         },
         {
             "name": "drupal/workbench_moderation",
