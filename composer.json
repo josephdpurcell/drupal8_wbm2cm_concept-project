@@ -1,6 +1,6 @@
 {
-    "name": "josephdpurcell/workspace_preview_system-project",
-    "description": "Get started with the Workspace Preview System",
+    "name": "josephdpurcell/drupal8_wbm2cm_concept-project",
+    "description": "Easily create a Drupal 8 to show Workbench Moderation to Content Moderation migration.",
     "type": "project",
     "license": "GPL-2.0+",
     "repositories": [
@@ -14,9 +14,9 @@
         "cweagans/composer-patches": "^1.6",
         "drupal-composer/drupal-scaffold": "^2.2",
         "drupal/core": "8.4.x-dev",
+        "josephdpurcell/drupal8_wbm2cm_concept": "^1.0.0",
         "webflo/drupal-finder": "^0.3.0",
-        "webmozart/path-util": "^2.3",
-        "josephdpurcell/workspace_preview_system": "wbm-upgrade-dev"
+        "webmozart/path-util": "^2.3"
     },
     "require-dev": {
         "behat/mink": "~1.7",

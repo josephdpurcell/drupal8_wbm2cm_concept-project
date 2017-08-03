@@ -1,6 +1,6 @@
-# Workspace Preview System
+# Drupal 8 Workbench Moderation to Content Moderation Migration Concept
 
-This is a distro that shows the use of the [Workspace Preview System](https://www.drupal.org/node/2675680) in Drupal 8.2.
+This is a proof of concept of how to migrate from Workbench Moderation to Content Moderation in Drupal 8.4.
 
 # Requirements
 
@@ -16,7 +16,7 @@ NOTE: these instructions only apply to the wbm-upgrade branch:
 1. Create a Drupal.
 
     ```
-    $ composer create-project josephdpurcell/workspace_preview_system-project:@dev MY_PROJECT "dev-wbm-upgrade" --no-interaction --stability dev
+    $ composer create-project josephdpurcell/drupal8_wbm2cm_concept-project MY_PROJECT --no-interaction --stability dev
     ```
 
     This will create a directory `MY_PROJECT`. Inside of it will be a directory `web` which is the website's docroot.

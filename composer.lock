@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "7aa44c24aa6640c6103c8978a10ac5cf",
+    "content-hash": "eff16a4cb1a9a9f35977e723e67f8640",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1298,17 +1298,17 @@
             "time": "2017-03-20T17:10:46+00:00"
         },
         {
-            "name": "josephdpurcell/workspace_preview_system",
-            "version": "dev-wbm-upgrade",
+            "name": "josephdpurcell/drupal8_wbm2cm_concept",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/josephdpurcell/workspace_preview_system.git",
-                "reference": "e74f37c030ee93e2a69d2e5ec9eb044f0906b567"
+                "url": "https://github.com/josephdpurcell/drupal8_wbm2cm_concept.git",
+                "reference": "acb59ebcbe07d1cbddefc77b4f5975bd3eb5ee58"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/josephdpurcell/workspace_preview_system/zipball/e74f37c030ee93e2a69d2e5ec9eb044f0906b567",
-                "reference": "e74f37c030ee93e2a69d2e5ec9eb044f0906b567",
+                "url": "https://api.github.com/repos/josephdpurcell/drupal8_wbm2cm_concept/zipball/acb59ebcbe07d1cbddefc77b4f5975bd3eb5ee58",
+                "reference": "acb59ebcbe07d1cbddefc77b4f5975bd3eb5ee58",
                 "shasum": ""
             },
             "require": {
@@ -1347,8 +1347,8 @@
             "license": [
                 "GPL-2.0+"
             ],
-            "description": "Get started with the Workspace Preview System",
-            "time": "2017-07-28T13:07:37+00:00"
+            "description": "A Drupal 8 install profile to show Workbench Moderation to Content Moderation migration.",
+            "time": "2017-08-03T14:17:08+00:00"
         },
         {
             "name": "masterminds/html5",
@@ -4713,8 +4713,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "drupal/core": 20,
-        "josephdpurcell/workspace_preview_system": 20
+        "drupal/core": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
