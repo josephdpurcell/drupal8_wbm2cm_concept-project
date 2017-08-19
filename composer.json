@@ -13,8 +13,8 @@
         "composer/installers": "^1.2",
         "cweagans/composer-patches": "^1.6",
         "drupal-composer/drupal-scaffold": "^2.2",
-        "drupal/core": "8.4.x-dev",
-        "josephdpurcell/drupal8_wbm2cm_concept": "dev-8.x-1.x",
+        "drupal/core": "8.4.0-alpha1",
+        "josephdpurcell/drupal8_wbm2cm_concept": "~1.0",
         "webflo/drupal-finder": "^0.3.0",
         "webmozart/path-util": "^2.3"
     },
@@ -24,7 +24,6 @@
         "jcalderonzumba/gastonjs": "~1.0.2",
         "jcalderonzumba/mink-phantomjs-driver": "~0.3.1",
         "mikey179/vfsstream": "~1.2",
-        "phpunit/phpunit": ">=4.8.28 <5",
         "symfony/css-selector": "~2.8"
     },
     "minimum-stability": "dev",
