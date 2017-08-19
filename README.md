@@ -2,6 +2,8 @@
 
 This is a proof of concept of how to migrate from Workbench Moderation to Content Moderation in Drupal 8.4.
 
+For the module that runs the migration, see [https://github.com/josephdpurcell/wbm2cm](https://github.com/josephdpurcell/wbm2cm).
+
 # Requirements
 
 1. [Composer](https://getcomposer.org/)
@@ -19,14 +21,18 @@ NOTE: these instructions only apply to the wbm-upgrade branch:
     $ composer create-project josephdpurcell/drupal8_wbm2cm_concept-project MY_PROJECT --no-interaction --stability dev
     ```
 
-    This will create a directory `MY_PROJECT`. Inside of it will be a directory `web` which is the website's docroot.
+    This will create a directory `MY_PROJECT`. Inside of it will be a directory `docroot` which is the website's docroot.
 
 2. Install the Drupal.
 
     ```
-    drush si
+    cd docroot
+    ../vendor/bin/drush si drupal8_wbm2cm_concept
     ```
 
     or
 
     go to `/install.php`.
+
+3. Run the migration: Configuration -> Workflow -> Migrate WBM to CM
+
